@@ -1,0 +1,33 @@
+kotyJSON = '{"koty": ['+
+                                '{"data": {'+
+                                    '"vodorovne": ['+
+                                        '{"AxL":0,"AxP":300,"Ay":20,"kotaNahoru":false,"prepsatKotu":"L"}'+
+                                        '],'+
+                                    '"svisle": ['+
+                                        ']'+
+                                    '},'+
+                                    '"Ox":50,'+
+                                    '"Oy":130,'+
+                                    '"meritko":40,'+
+                                    '"id":"konzolaSilaNaKonci",'+
+                                    '"class":"konzolaSilaNaKonci"'+
+                                '},' +
+                                '{"data": {'+
+                                    '"vodorovne": ['+
+                                        '{"AxL":100,"AxP":200, "Ay": 300, "kotaNahoru": true, "prepsatKotu": ""},'+
+                                        '{"AxL":100,"AxP":300, "Ay": 400, "kotaNahoru": true, "prepsatKotu": ""},'+
+                                        '{"AxL":100,"AxP":400, "Ay": 100, "kotaNahoru": false, "prepsatKotu": ""}'+
+                                        '],'+
+                                    '"svisle": ['+
+                                        '{"AyH":100,"AyD":200, "Ax": 300, "kotaDoleva": true, "prepsatKotu": ""},'+
+                                        '{"AyH":100,"AyD":200, "Ax": 400, "kotaDoleva": true, "prepsatKotu": ""},'+
+                                        '{"AyH":100,"AyD":200, "Ax": 500, "kotaDoleva": false, "prepsatKotu": ""}'+
+                                        ']'+
+                                    '},'+
+                                    '"Ox":0,'+
+                                    '"Oy":0,'+
+                                    '"meritko":1,'+
+                                    '"id":"test",'+
+                                    '"class":"test"'+
+                                '}]' +
+                            '}';

@@ -1,0 +1,17 @@
+sipkyJSON = '{"sipky": ['+
+    '{"data": {'+
+        '"vodorovne": ['+
+            '{"Ax":400,"Ay":0,"delkaSipky":50,"sipkaDoprava":false,"text":"200kN"},'+
+            '{"Ax":0,"Ay":0,"delkaSipky":50,"sipkaDoprava":true,"text":"200kN"}'+
+            '],'+
+        '"svisle": ['+
+            '{"Ax":0,"Ay":15,"delkaSipky":100,"sipkaDolu":false,"text":"A=150kN"},'+
+            '{"Ax":400,"Ay":15,"delkaSipky":100,"sipkaDolu":false,"text":"B=450kN"}'+
+            ']'+
+        '},'+
+        '"Ox":100,'+
+        '"Oy":200,'+
+        '"id":"test",'+
+        '"class":"test"'+
+    '}]' +
+'}';

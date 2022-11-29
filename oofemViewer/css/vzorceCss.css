@@ -1,0 +1,132 @@
+
+p {
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vzorec{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 1px solid darkBlue;
+    margin-left: 80px;
+    padding:10px;
+    background-color: lightblue;
+    width: 300px;
+}
+
+.vzorec100{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 1px solid darkBlue;
+    margin-left: 80px;
+    padding:10px;
+    background-color: lightblue;
+    width: 100px;
+}
+
+.vzorec200{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 1px solid darkBlue;
+    margin-left: 80px;
+    padding:10px;
+    background-color: lightblue;
+    width: 200px;
+}
+
+.vzorec300{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 1px solid darkBlue;
+    margin-left: 80px;
+    padding:10px;
+    background-color: lightblue;
+    width: 300px;
+}
+
+.vzorec400{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 1px solid darkBlue;
+    margin-left: 80px;
+    padding:10px;
+    background-color: lightblue;
+    width: 400px;
+}
+
+.vzorec700{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 1px solid darkBlue;
+    margin-left: 80px;
+    padding:10px;
+    background-color: lightblue;
+    width: 700px;
+}
+
+
+.vzorec1000{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 1px solid darkBlue;
+    margin-left: 80px;
+    padding:10px;
+    background-color: lightblue;
+    width: 1000px;
+}
+
+
+
+
+.vysledek100{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 3px solid red;
+    margin-left: 80px;
+    padding: 10px;
+    background-color: #ffcccc;
+    width: 100px;
+    margin-top:10px;
+}
+
+.vysledek200{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 3px solid red;
+    margin-left: 80px;
+    padding:10px;
+    background-color: #ffcccc;
+    width: 200px;
+}
+
+.vysledek300{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 3px solid red;
+    margin-left: 80px;
+    padding:10px;
+    background-color: #ffcccc;
+    width: 300px;
+}
+
+.vysledek400{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 3px solid red;
+    margin-left: 80px;
+    padding:10px;
+    background-color: #ffcccc;
+    width: 400px;
+}
+
+.vysledek1000{
+    display: grid;
+    grid-template-columns: 1px;
+    border: 3px solid red;
+    margin-left: 80px;
+    padding:10px;
+    background-color: #ffcccc;
+    width: 700px;
+}
+
+

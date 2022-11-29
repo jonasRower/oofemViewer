@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="Ncss.css">
+    <link rel="stylesheet" href="css/css.css">
+
+    <div class="parent">
+        <div class="div1">
+            <p>OOFEM Results</p>
+        </div>
+        <div class="div2">
+
+            
+            <p>Preprocessor/Processor</p>
+            <select id="selectPrePost" class="PrePost">
+                <option>inputs</option>
+                <option>outputs</option>
+            </select>
+            
+
+
+            <p class="inputs">Type of Loads</p>
+            <select id="selectLoad" class="inputs">
+                <option>ElementLoads</option>
+                <option>NodalLoads</option>
+                <option>ForcedDisplacement</option>
+                <option>TemperatureLoad</option>
+            </select>
+
+            
+            <form id="specifyDOF" class="inputs">
+                <input type="radio" name="radioName" value="All DOF" checked="checked"/> All DOF <br />
+                <input type="radio" name="radioName" value="Specify DOF" /> Specify DOF <br />
+            </form>
+            <!--
+
+            <form id="myForm">
+                <input type="radio" name="radioName" value="1" /> 1 <br />
+                <input type="radio" name="radioName" value="2" /> 2 <br />
+                <input type="radio" name="radioName" value="3" /> 3 <br />
+            </form>
+-->
+
+            <p class="inputsDOF">Select DOF</p>
+            <select id="selectDOFinputs" class="inputs">
+                <option>1</option>
+                <option>3</option>
+                <option>5</option>
+            </select>
+
+
+            <p class="outputs">Type of Results</p>
+            <select id="selectResults" class="outputs">
+                <option>LocalDisplacements</option>
+                <option>GlobalDisplacements</option>
+                <option>LocalForces</option>
+                <option>Reactions</option>
+            </select>
+
+            <p class="outputs">Select DOF</p>
+            <select id="selectDOF" class="outputs">
+                <option>1</option>
+                <option>3</option>
+                <option>5</option>
+            </select>
+
+            <p class="outputs">Select OFT</p>
+            <select id="selectOFT" class="outputs">
+                <option>1.00000000e+00</option>
+                <option>2.00000000e+00</option>
+                <option>3.00000000e+00</option>
+            </select>
+
+            <p class="elementPreview">Filter by</p>
+            <form id="filterBy" class="elementPreview">
+                <input type="radio" name="radioName" value="Element -> Node" checked="checked" /> Element -> Node <br />
+                <input type="radio" name="radioName" value="Node -> Element" /> Node -> Element <br />
+            </form>
+
+            <p class="elementPreview">Element Preview</p>
+            <select id="selectElementPreview" class="elementPreview">
+                <option>-1</option>
+            </select>
+
+            <form id="numberValues" class="elementPreview">
+                <input type="radio" name="radioName" value="Number of nodes" checked="checked"/> Number of nodes <br />
+                <input type="radio" name="radioName" value="Values" /> Values <br />
+            </form>
+
+            <p class="elementPreview">Node Preview</p>
+            <select id="selectNode" class="elementPreview">
+                <option>-1</option>
+            </select>
+
+            <p class="moveText">Move Text</p>
+            <form id="moveText" class="moveText">
+                <input type="radio" name="radioName" value="false" checked="checked"/> Old algorithm <br />
+                <input type="radio" name="radioName" value="true" /> New algorithm <br />
+            </form>
+
+
+        </div>
+        <div class="div3">
+            <p>Legenda</p>
+        </div>
+        <div class="div4">
+            <canvas id="test" width="800" height="300" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.</canvas>
+        </div>
+        <div class="div5">
+            <canvas id="vodorovnyRez" width="800" height="200" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.</canvas>
+        </div>
+        <div class="div6">
+            <p>vysledky ciselne</p>
+        </div>
+        <div class="div7">
+            <canvas id="svislyRez" width="100" height="200" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.</canvas>
+        </div>
+    </div>  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML-full"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>  
+    <script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.js"></script>
+
+    <!-- Nize jsou ulozeny jednotlive JSONY  -->
+
+
+
+    <!-- LocalDisplacements                  -->
+    <!-- JSONy pro DOF = 1                   -->
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/1/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/1/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/1/GrafyKce_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 3                   -->
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/3/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/3/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/3/GrafyKce_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 5                   -->
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/5/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/5/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalDisplacements/5/GrafyKce_3_00000000ep00.json"></script>
+
+
+
+    <!-- GlobalDisplacements                 -->
+    <!-- JSONy pro DOF = 1                   -->
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/1/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/1/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/1/GrafyKce_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 3                   -->
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/3/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/3/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/3/GrafyKce_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 5                   -->
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/5/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/5/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/GlobalDisplacements/5/GrafyKce_3_00000000ep00.json"></script>
+
+
+
+    <!-- LocalForces                         -->
+    <!-- JSONy pro DOF = 1                   -->
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/1/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/1/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/1/GrafyKce_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 3                   -->
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/3/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/3/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/3/GrafyKce_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 5                   -->
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/5/GrafyKce_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/5/GrafyKce_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/LocalForces/5/GrafyKce_3_00000000ep00.json"></script>
+
+
+    <!-- Reactions                           -->
+    <!-- JSONy pro DOF = 1                   -->
+    <script type="text/javascript" src="json/JSONOutput/Reactions/1/Sipky_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/Reactions/1/Sipky_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/Reactions/1/Sipky_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 3                   -->
+    <script type="text/javascript" src="json/JSONOutput/Reactions/3/Sipky_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/Reactions/3/Sipky_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/Reactions/3/Sipky_3_00000000ep00.json"></script>
+
+    <!-- JSONy pro DOF = 5                   -->
+    <script type="text/javascript" src="json/JSONOutput/Reactions/5/Sipky_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/Reactions/5/Sipky_2_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/Reactions/5/Sipky_3_00000000ep00.json"></script>
+
+    <!-- Podpory    -->                       
+    <script type="text/javascript" src="json/JSONOutput/Supports/Data.json"></script>
+
+
+    <!-- ElementLoad                         -->    
+    <script type="text/javascript" src="json/JSONOutput/ElementLoad/1/GrafyKceInput_0.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/ElementLoad/3/GrafyKceInput_0.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/ElementLoad/5/GrafyKceInput_0.json"></script>
+
+    <!-- TemperatureLoad                    -->
+    <script type="text/javascript" src="json/JSONOutput/TemperatureLoad/3/GrafyKceInput_1.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/TemperatureLoad/3/GrafyKceInput_2.json"></script>
+
+    <!-- NodalLoad                          -->
+    <script type="text/javascript" src="json/JSONOutput/NodalLoad/1/Sipky_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/NodalLoad/3/Sipky_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/NodalLoad/5/Sipky_1_00000000ep00.json"></script>
+
+    <!-- Forced Displacement                -->
+    <script type="text/javascript" src="json/JSONOutput/ForcedDisplacement/1/Sipky_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/ForcedDisplacement/3/Sipky_1_00000000ep00.json"></script>
+    <script type="text/javascript" src="json/JSONOutput/ForcedDisplacement/5/Sipky_1_00000000ep00.json"></script>
+
+
+
+    <script type="text/javascript" src="json/2dElementJSON.json"></script>
+    <script type="text/javascript" src="json/grafyNaPrutechJSON.json"></script>
+    
+    <script type="text/javascript" src="json/popisJSON.json"></script>
+    <script type="text/javascript" src="json/kotyJSON.json"></script>
+    <script type="text/javascript" src="json/sipkyJSON.json"></script>
+    <script type="text/javascript" src="json/pruzinaJSON.json"></script>
+
+     <!--
+    <script type="text/javascript" src="js/2dElement.js"></script>
+   
+    <script type="text/javascript" src="js/sipky.js"></script>
+   <script type="text/javascript" src="json/podporyJSON.json"></script> 
+    -->
+
+    <!--
+    <script type="text/javascript" src="js/pricnyRez.js"></script>
+    -->
+<!--  
+    <script type="text/javascript" src="js/sipky3.js"></script>
+-->   
+   
+    <script type="text/javascript" src="js/grafyNaPrutech.js"></script>
+    <script type="text/javascript" src="js/sipky3.js"></script>
+    
+    <script type="text/javascript" src="js/podpory.js"></script>
+     
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+ForcedDisplacement_5 = '{"sipky": [' +
+'  {"data": {' +
+'     "sikmo": [' +
+'],' +
+'     "obloukove": [' +
+        '{"Ax":0.0,"Ay":0.0,"polomer":50,"start":0,"end":0.5,"text":"freeDOF","natoceniSipky":0.3,"tloustkaCary":"1","barvaCary":"darkCyan","delkaHrotu":10,"rozevreniHrotu":3,"zarovnaniKonec":"vpravo","zarovnaniStred":"vpravo","odsazeniX":15,"odsazenyY":15},' +
+        '{"Ax":190.0,"Ay":0.0,"polomer":50,"start":0,"end":0.5,"text":"0.0","natoceniSipky":0.3,"tloustkaCary":"1","barvaCary":"darkCyan","delkaHrotu":10,"rozevreniHrotu":3,"zarovnaniKonec":"vpravo","zarovnaniStred":"vpravo","odsazeniX":15,"odsazenyY":15},' +
+        '{"Ax":120.0,"Ay":150.0,"polomer":50,"start":0,"end":0.5,"text":"-0.006e-3","natoceniSipky":0.3,"tloustkaCary":"1","barvaCary":"darkCyan","delkaHrotu":10,"rozevreniHrotu":3,"zarovnaniKonec":"vpravo","zarovnaniStred":"vpravo","odsazeniX":15,"odsazenyY":15},' +
+        '{"Ax":390.0,"Ay":150.0,"polomer":50,"start":0,"end":0.5,"text":"freeDOF","natoceniSipky":0.3,"tloustkaCary":"1","barvaCary":"darkCyan","delkaHrotu":10,"rozevreniHrotu":3,"zarovnaniKonec":"vpravo","zarovnaniStred":"vpravo","odsazeniX":15,"odsazenyY":15}' +
+'     ]' +
+'  },' +
+'  "Ox":50,' +
+'  "Oy":100,' +
+'  "id":"test",' +
+'  "class":""' +
+'  }]' +
+'}';

@@ -1,0 +1,14 @@
+Reactions_5_2_00000000ep00 = '{"sipky": [' +
+'  {"data": {' +
+'     "sikmo": [' +
+'],' +
+'     "obloukove": [' +
+        '{"Ax":120.0,"Ay":150.0,"polomer":50,"start":0,"end":0.5,"text":"1.2786e-08","natoceniSipky":0.3,"tloustkaCary":"1","barvaCary":"darkCyan","delkaHrotu":10,"rozevreniHrotu":3,"zarovnaniKonec":"vpravo","zarovnaniStred":"vpravo","odsazeniX":15,"odsazenyY":15}' +
+'     ]' +
+'  },' +
+'  "Ox":50,' +
+'  "Oy":100,' +
+'  "id":"test",' +
+'  "class":""' +
+'  }]' +
+'}';

@@ -1,0 +1,17 @@
+ForcedDisplacement_3 = '{"sipky": [' +
+'  {"data": {' +
+'     "sikmo": [' +
+        '{"Ax":0.0,"Ay":0.0,"Bx":0.0,"By":100.0,"text":"0.0","zarovnaniKonec":"","zarovnaniStred":"vpravo","tloustkaCary":"1","barvaCary":"darkBlue","odsazeniX":5,"odsazeniY":5},' +
+        '{"Ax":190.0,"Ay":0.0,"Bx":190.0,"By":100.0,"text":"freeDOF","zarovnaniKonec":"","zarovnaniStred":"vpravo","tloustkaCary":"1","barvaCary":"darkBlue","odsazeniX":5,"odsazeniY":5},' +
+        '{"Ax":120.0,"Ay":150.0,"Bx":120.0,"By":250.0,"text":"0.0","zarovnaniKonec":"","zarovnaniStred":"vpravo","tloustkaCary":"1","barvaCary":"darkBlue","odsazeniX":5,"odsazeniY":5},' +
+        '{"Ax":390.0,"Ay":150.0,"Bx":390.0,"By":250.0,"text":"0.0","zarovnaniKonec":"","zarovnaniStred":"vpravo","tloustkaCary":"1","barvaCary":"darkBlue","odsazeniX":5,"odsazeniY":5}' +
+'],' +
+'     "obloukove": [' +
+'     ]' +
+'  },' +
+'  "Ox":50,' +
+'  "Oy":100,' +
+'  "id":"test",' +
+'  "class":""' +
+'  }]' +
+'}';

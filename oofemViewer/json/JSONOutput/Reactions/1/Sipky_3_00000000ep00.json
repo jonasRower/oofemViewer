@@ -1,0 +1,14 @@
+Reactions_1_3_00000000ep00 = '{"sipky": [' +
+'  {"data": {' +
+'     "sikmo": [' +
+        '{"Ax":120.0,"Ay":150.0,"Bx":220.0,"By":150.0,"text":"7.9986e-05","zarovnaniKonec":"","zarovnaniStred":"vpravo","tloustkaCary":"1","barvaCary":"darkBlue","odsazeniX":5,"odsazeniY":5}' +
+'],' +
+'     "obloukove": [' +
+'     ]' +
+'  },' +
+'  "Ox":50,' +
+'  "Oy":100,' +
+'  "id":"test",' +
+'  "class":""' +
+'  }]' +
+'}';

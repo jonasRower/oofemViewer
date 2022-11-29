@@ -1,0 +1,17 @@
+podporyJSON = '{"podpory": [' +
+' {"data": {' +
+'   "vodorovnyPrut": [' +
+'       {"Ax":120.0,"Ay":150.0,"velikost":15,"typ":"vetknuti","podporaZleva":true,"barvaCary":"darkcyan","tloustkaCary":"2"}' +
+'    ],' +
+'   "svislyPrut": [' +
+'       {"Ax":0.0,"Ay":0.0,"velikost":15,"typ":"kloubPosun","podporaDolu":true,"barvaCary":"darkcyan","tloustkaCary":"2"},' +
+'       {"Ax":390.0,"Ay":150.0,"velikost":15,"typ":"kloubPosun","podporaDolu":true,"barvaCary":"darkcyan","tloustkaCary":"2"},' +
+'       {"Ax":120.0,"Ay":150.0,"velikost":15,"typ":"vetknuti","podporaDolu":true,"barvaCary":"darkcyan","tloustkaCary":"2"}' +
+'    ]' +
+'   },' +
+'   "Ox":50,' +
+'   "Oy":100,' +
+'   "id":"test",' +
+'   "class":"XX"' +
+' }]' +
+'}';
